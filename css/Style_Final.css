@@ -5,6 +5,12 @@
     box-sizing: border-box;
 }
 
+l {
+    display: flex;
+    list-style-type: none;
+    gap: 2rem;
+}
+
 nav {
     background-color: #B0A3A3;
     color: black;
@@ -29,4 +35,14 @@ main {
 footer {
     position: bottom, center;
     color: rgb(29, 29, 29);
+}
+
+@media only screen and (max-width: 480px) {
+    nav {
+        height: 10rem;
+    }
+
+    ul {
+        display: block;
+    }
 }
