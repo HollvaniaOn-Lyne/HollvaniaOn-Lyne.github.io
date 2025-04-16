@@ -23,6 +23,7 @@ p {
 
 li {
     display: inline;
+    gap: 2rem;
 }
 
 ul {
@@ -31,6 +32,5 @@ ul {
     list-style-type: none;
     align-items: center;
     justify-content: center;
-    gap: 2rem;
 
 }
