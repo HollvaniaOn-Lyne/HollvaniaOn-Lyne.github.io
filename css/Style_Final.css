@@ -8,7 +8,7 @@
 nav {
     background-color: #B0A3A3;
     color: black;
-    text-align: center;
+    text-align: top;
     width: 100vw;
     top: 0;
     height: 30px;
@@ -28,4 +28,5 @@ main {
 
 footer {
     position: bottom, center;
+    color: rgb(29, 29, 29);
 }
