@@ -1,9 +1,26 @@
-* {}
+* {
+    background-color: #D9D9D9;
+}
 
-h1 {}
+h1 {
+    text-align: center;
+    border: #E1BF35;
+    box-sizing: border-box;
+    color: #23a7ff;
+}
 
-nav {}
+nav {
+    text-align: center;
+    border: B0A3A3;
+    box-sizing: border-box;
+    color: #333333;
+}
 
-p {}
+p {
+    color: #333333;
+}
 
-ul {}
+ul {
+    color: #333333;
+
+}
