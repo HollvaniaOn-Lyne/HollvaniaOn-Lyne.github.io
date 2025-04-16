@@ -11,6 +11,7 @@ h1 {
 
 nav {
     text-align: center;
+    background-color: #B0A3A3;
     box-sizing: border-box;
     color: #333333;
     align-items: center;
@@ -22,12 +23,14 @@ p {
 }
 
 li {
+
     display: inline;
     padding: 0.5rem;
 }
 
 ul {
     color: #333333;
+    background-color: #B0A3A3;
     list-style-type: none;
     align-items: center;
     justify-content: center;
