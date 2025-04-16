@@ -14,7 +14,8 @@ ul {
 nav {
     background-color: #B0A3A3;
     color: black;
-    text-align: top, center;
+    position: top;
+    text-align: center;
     width: 100vw;
     top: 0;
     height: 30px;
