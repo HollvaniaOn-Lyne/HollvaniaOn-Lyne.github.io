@@ -9,7 +9,7 @@ nav {
     background-color: #B0A3A3;
     color: black;
     display: flex;
-    align-text: center;
+    text-align: center;
     position: fixed;
     width: 100vw;
     top: 0;
