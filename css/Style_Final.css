@@ -17,9 +17,12 @@ nav {
 }
 
 body {
-    background-color: #E1BF35;
-    color: ;
-
+    background-color: #B0A3A3;
+    border: #E1BF35;
+    color: rgb(0, 113, 252);
+    font-size: 2rem;
+    background-color: rgb(111, 111, 111);
+    width: fit-content;
 }
 
 main {
