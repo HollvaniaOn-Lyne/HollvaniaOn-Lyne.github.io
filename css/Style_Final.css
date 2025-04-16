@@ -9,11 +9,11 @@ ul {
     display: flex;
     list-style-type: none;
     gap: 2rem;
-    position: top;
-    text-align: center;
 }
 
 nav {
+    position: top;
+    text-align: center;
     background-color: #B0A3A3;
     color: black;
     width: 100vw;
