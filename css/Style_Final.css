@@ -9,13 +9,13 @@ ul {
     display: flex;
     list-style-type: none;
     gap: 2rem;
+    position: top;
+    text-align: center;
 }
 
 nav {
     background-color: #B0A3A3;
     color: black;
-    position: top;
-    text-align: center;
     width: 100vw;
     top: 0;
     height: 30px;
