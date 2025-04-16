@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: #B0A3A3;
+    color: black;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    height: 30px;
+    z-index: 100;
+}
+
+head {
+    background-color: #E1BF35;
+    color: ;
+
+}
+
+main {
+    margin-top: 30px;
+}
+
+/* h1 {
+    position: absolute;
+    left: 300px;
+} */
+
+img {
+    float: left;
+}
+
+#to-modify {
+    position: relative;
+    top: 10px;
+    left: 100px;
+}
