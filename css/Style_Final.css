@@ -4,16 +4,18 @@
 
 h1 {
     text-align: center;
-    border: #E1BF35;
+    background-color: #E1BF35;
     box-sizing: border-box;
     color: #23a7ff;
 }
 
 nav {
     text-align: center;
-    border: B0A3A3;
+    background-color: B0A3A3;
     box-sizing: border-box;
     color: #333333;
+    align-items: center;
+    justify-content: center;
 }
 
 p {
@@ -22,5 +24,8 @@ p {
 
 ul {
     color: #333333;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
 
 }
