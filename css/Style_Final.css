@@ -23,7 +23,7 @@ p {
 
 li {
     display: inline;
-    gap: 2rem;
+    padding: 2rem;
 }
 
 ul {
