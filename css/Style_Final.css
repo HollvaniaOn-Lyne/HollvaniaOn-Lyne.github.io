@@ -8,9 +8,7 @@
 nav {
     background-color: #B0A3A3;
     color: black;
-    display: flex;
     text-align: center;
-    position: fixed;
     width: 100vw;
     top: 0;
     height: 30px;
