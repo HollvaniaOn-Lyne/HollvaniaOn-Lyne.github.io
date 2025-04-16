@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 
-l {
+ul {
     display: flex;
     list-style-type: none;
     gap: 2rem;
