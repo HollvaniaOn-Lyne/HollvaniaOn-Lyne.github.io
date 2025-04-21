@@ -45,8 +45,8 @@ ul {
 }
 
 figure {
-    display: flex;
-    float: left;
+    
+    float: center;
 }
 
 .text {
@@ -54,13 +54,17 @@ figure {
 }
 
 .container img {
-    max-width: 300px;
-    height: auto;
+    max-width: 800px;
+     height: auto;
     margin-right: 20px;
 }
 
 .container {
     display: flex;
     align-items: center;
+    justify-content: center;
     padding: 20px;
+}
+img{
+    width: 600px;
 }

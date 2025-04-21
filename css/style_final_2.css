@@ -5,35 +5,74 @@
 }
 
 article {
-    background-color: #D9D9D9;
-    length: 400px;
-    width: 400px;
-    padding: 15px;
+    background-color: #b1a5a5;
+    ;
+    width: 450px;
+    padding: 20px;
     margin-top: 20px;
     align-items: center;
+    border-radius: 15px;
+    box-sizing: border-box;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    max-height: fit-content
+    ;
 }
 
 .container {
-    width: 50px;
-    display: flex;
+    max-width: 100%;
     align-items: center;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
 }
 
 .container img {
-    max-width: 300px;
     height: auto;
-    margin-right: 20px;
+    justify-content: center;
+    align-items: center;
 }
 
 #tickets {
-    margin: 0 3rem;
+   margin: auto;
+    height: fit-content;
 }
 
 #merch {
-    display: flex;
-    margin-top: 3rem;
+ 
+    margin-top: 2.0rem;
+    height: fit-content;
 }
 
 #Holtels {
-    margin-bottom: 1.8rem;
+    margin: 2.0rem;
+    height: fit-content;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+body{
+    background-color: aqua;
+}
+p{
+    text-align: center;
+    ;
+}
+img{
+    width: 300px;
+}
+#tickets{
+    max-width: fit-content;
+}
+h1{
+    text-align: center;
+}
+@media only screen and (max-width 480px){}
+nav{
+    height:10rem
 }
