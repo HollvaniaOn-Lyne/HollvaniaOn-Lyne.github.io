@@ -10,9 +10,7 @@ article {
     width: 400px;
     padding: 15px;
     margin-top: 20px;
-    border-radius: 10px;
-    box-shadow: #000000;
-    display: block;
+    align-items: center;
 }
 
 .container {
@@ -28,16 +26,14 @@ article {
 }
 
 #tickets {
-    background-color: black;
+    margin: 0 3rem;
 }
 
 #merch {
-    background-color: aqua;
+    display: flex;
+    margin-top: 3rem;
 }
 
-#places to stay {
-    background-color: blue;
-}
-body{
-    background-color: rgb(183, 235, 235);
+#Holtels {
+    margin-bottom: 1.8rem;
 }
