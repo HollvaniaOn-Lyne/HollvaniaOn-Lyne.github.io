@@ -12,7 +12,7 @@ h1 {
     text-align: center;
     background-color: #E1BF35;
     box-sizing: border-box;
-    color: #23a7ff;
+    color: #2499e7;
 }
 
 nav {
@@ -35,7 +35,7 @@ li {
 }
 
 ul {
-    color: #333333;
+    color: #1e1e1e;
     background-color: #B0A3A3;
     list-style-type: none;
     align-items: center;
