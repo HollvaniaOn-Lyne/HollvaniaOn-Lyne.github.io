@@ -25,8 +25,15 @@ article {
     margin-right: 20px;
 }
 
-#tickets {}
+#tickets {
+    margin: 0 3rem;
+}
 
-#merch {}
+#merch {
+    display: flex;
+    margin-top: 3rem;
+}
 
-# {}
+#Holtels {
+    margin-bottom: 1.8rem;
+}
