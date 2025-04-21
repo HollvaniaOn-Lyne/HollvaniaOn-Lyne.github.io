@@ -4,3 +4,24 @@
     box-sizing: border-box;
 }
 
+article {
+    background-color: #D9D9D9;
+    length: 900px;
+    width: 900px;
+}
+
+.container {
+    
+}
+
+#tickets {
+    background-color: black;
+}
+
+#merch {
+    background-color: aqua;
+}
+
+#places to stay {
+    background-color: blue;
+}
