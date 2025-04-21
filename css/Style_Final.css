@@ -43,3 +43,24 @@ ul {
     gap: 2rem;
 
 }
+
+figure {
+    display: flex;
+    float: left;
+}
+
+.text {
+    max-width: 500px;
+}
+
+.container img {
+    max-width: 300px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
