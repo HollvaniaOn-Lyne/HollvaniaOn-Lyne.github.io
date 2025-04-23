@@ -8,11 +8,20 @@ body {
     background-color: #D9D9D9;
 }
 
+
+p {
+    color: #333333;
+}
+
 h1 {
     text-align: center;
     background-color: #E1BF35;
     box-sizing: border-box;
     color: #2499e7;
+}
+
+h2 {
+    text-align: center;
 }
 
 nav {
@@ -22,10 +31,6 @@ nav {
     color: #333333;
     align-items: center;
     justify-content: center;
-}
-
-p {
-    color: #333333;
 }
 
 li {
@@ -53,17 +58,17 @@ figure {
     max-width: 2000px;
 }
 
-.container img {
-    max-width: 800px;
-    height: auto;
-    margin-right: 20px;
-}
-
 .container {
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 20px;
+}
+
+.container img {
+    max-width: 800px;
+    height: auto;
+    margin-right: 20px;
 }
 
 img {
@@ -74,13 +79,6 @@ img {
 }
 
 footer {
+    background-color: #3bbce3;
     text-align: center;
-}
-
-h2 {
-    text-align: center;
-}
-
-footer {
-    background-color: #51cff6;
 }
