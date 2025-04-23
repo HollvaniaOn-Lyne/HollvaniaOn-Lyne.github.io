@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: rgb(18, 105, 220);
+    background-color: rgb(51, 134, 243);
 }
 
 .container {
@@ -36,6 +36,9 @@ article {
     max-height: fit-content;
     text-align: center;
 
+}
+h1{
+    text-align: center;
 }
 
 @media only screen and (max-width 480px) {}
