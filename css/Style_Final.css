@@ -82,3 +82,5 @@ footer {
     background-color: #3bbce3;
     text-align: center;
 }
+
+@media only screen and (max-width 480px) {}
