@@ -62,7 +62,6 @@ body {
 
 p {
     text-align: center;
-    ;
 }
 
 img {
@@ -73,8 +72,8 @@ h1 {
     text-align: center;
 }
 
-@media only screen and (max-width 480px) {}
-
 nav {
     height: 10rem
 }
+
+@media only screen and (max-width 480px) {}
