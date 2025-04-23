@@ -9,11 +9,10 @@ body{
 
 .container {
     display: flex;
-    flex-direction: row;
-    align-items: flex-start;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center;    /* Optional: center items horizontally */
     padding: 20px;
     gap: 30px;
-    flex-wrap: wrap;
 }
 
 .container img {
@@ -21,7 +20,7 @@ body{
     width: 100%;
     /* Allows responsive scaling within container */
     height: auto;
-    margin-right: 20px;
+   
 }
 
 img {
