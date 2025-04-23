@@ -4,6 +4,21 @@
     box-sizing: border-box;
 }
 
+h1 {
+    text-align: center;
+    background-color: #b1a5a5;
+    box-sizing: border-box;
+    color: #303030;
+}
+
+body {
+    background-color: aqua;
+}
+
+p {
+    text-align: center;
+}
+
 article {
     background-color: #b1a5a5;
     width: 480px;
@@ -16,6 +31,10 @@ article {
     max-height: fit-content;
 }
 
+nav {
+    height: 10rem
+}
+
 .container {
     max-width: 100%;
     align-items: center;
@@ -26,10 +45,21 @@ article {
 
 }
 
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
 .container img {
     height: auto;
     justify-content: center;
     align-items: center;
+}
+
+img {
+    width: 300px;
 }
 
 #tickets {
@@ -51,34 +81,5 @@ article {
     max-width: fit-content;
 }
 
-.grid-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-    padding: 20px;
-}
-
-body {
-    background-color: aqua;
-}
-
-p {
-    text-align: center;
-}
-
-img {
-    width: 300px;
-}
-
-h1 {
-    text-align: center;
-    background-color: #b1a5a5;
-    box-sizing: border-box;
-    color: #303030;
-}
-
-nav {
-    height: 10rem
-}
 
 @media only screen and (max-width 480px) {}
