@@ -40,13 +40,15 @@ article {
 
 #merch {
 
-    margin-top: auto;
+    margin: auto;
     height: fit-content;
+    max-width: fit-content;
 }
 
 #Holtels {
     margin: auto;
     height: fit-content;
+    max-width: fit-content;
 }
 
 .grid-container {
