@@ -15,7 +15,8 @@
 
 .container img {
     max-width: 800px;
-    width: 100%; /* Allows responsive scaling within container */
+    width: 100%;
+    /* Allows responsive scaling within container */
     height: auto;
     margin-right: 20px;
 }
@@ -23,17 +24,22 @@
 img {
     width: 200px;
     height: auto;
-    display: block; /* helps with vertical centering if needed */
-    margin: 0 auto; /* centers images inside their containers if needed */
+    display: block;
+    /* helps with vertical centering if needed */
+    margin: 0 auto;
+    /* centers images inside their containers if needed */
 }
 
 article {
     background-color: aqua;
     width: 300px;
     padding: 20px;
-    margin-top: 20px; /* changed from auto for proper spacing */
+    margin-top: 20px;
+    /* changed from auto for proper spacing */
     border-radius: 15px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.8);
     max-height: fit-content;
     text-align: center;
 }
+
+@media only screen and (max-width 480px) {}
