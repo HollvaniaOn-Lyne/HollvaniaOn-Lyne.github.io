@@ -6,9 +6,9 @@
 
 article {
     background-color: #b1a5a5;
-    width: 485px;
+    width: 480px;
     padding: 20px;
-    margin-top: 150px;
+    margin-top: 160px;
     align-items: center;
     border-radius: 15px;
     box-sizing: border-box;
@@ -72,6 +72,9 @@ img {
 
 h1 {
     text-align: center;
+    background-color: #b1a5a5;
+    box-sizing: border-box;
+    color: #303030;
 }
 
 nav {
