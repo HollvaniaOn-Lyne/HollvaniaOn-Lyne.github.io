@@ -4,6 +4,14 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: aqua;
+}
+
+p {
+    text-align: center;
+}
+
 h1 {
     text-align: center;
     background-color: #b1a5a5;
@@ -11,12 +19,8 @@ h1 {
     color: #303030;
 }
 
-body {
-    background-color: aqua;
-}
-
-p {
-    text-align: center;
+nav {
+    height: 10rem
 }
 
 article {
@@ -29,10 +33,6 @@ article {
     box-sizing: border-box;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
     max-height: fit-content;
-}
-
-nav {
-    height: 10rem
 }
 
 .container {
