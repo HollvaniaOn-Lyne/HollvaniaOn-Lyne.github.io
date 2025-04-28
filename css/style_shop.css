@@ -3,14 +3,15 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     background-color: rgb(51, 134, 243);
 }
 
 .container {
 
-    display: flex;  /* Stack items vertically */
-    align-items: center;    /* Optional: center items horizontally */
+    display: flex; 
+    align-items: center;  
    padding: 20px;
    flex-direction: column;
     
@@ -22,12 +23,16 @@ body{
     border-radius: 10px;
     margin-bottom: 10px;
     /* Allows responsive scaling within container */
-   
+
 }
 
 img {
     width: 200px;
-   
+
+}
+
+ul {
+    text-decoration: none;
 }
 
 article {
@@ -41,7 +46,8 @@ article {
     text-align: center;
     flex-direction: column;
 }
-h1{
+
+h1 {
     text-align: center;
     margin-bottom: 20px;
 }
