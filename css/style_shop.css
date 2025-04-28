@@ -1,7 +1,7 @@
 * {
-    margin: 0;
+    margin: 0px;
     padding: 0;
-    box-sizing: border-box;
+     box-sizing: border-box; 
 }
 
 body {
@@ -12,16 +12,17 @@ body {
 
     display: flex;
     align-items: center;
-    padding: 20px;
-    flex-direction: column;
+     padding: 20px; 
+     flex-direction: column;
+
 
 }
 
 .container img {
-    max-width: 300px;
+     max-width: 300px;
     width: 100%;
     border-radius: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 10px; 
     /* Allows responsive scaling within container */
 
 }
@@ -36,11 +37,13 @@ li {
     padding-left: 0px;
     align-items: center;
     justify-content: center;
+    margin-right: 565px;
+    display: flex;
 
 }
 
 article {
-    background-color: aqua;
+     background-color: aqua;
     width: 350px;
     padding: 20px;
     margin-bottom: 30px;
