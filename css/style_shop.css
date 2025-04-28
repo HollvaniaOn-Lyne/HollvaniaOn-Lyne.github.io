@@ -10,11 +10,11 @@ body {
 
 .container {
 
-    display: flex; 
-    align-items: center;  
-   padding: 20px;
-   flex-direction: column;
-    
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    flex-direction: column;
+
 }
 
 .container img {
@@ -31,8 +31,12 @@ img {
 
 }
 
-ul {
-    text-decoration: none;
+li {
+    list-style-type: none;
+    padding-left: 0px;
+    align-items: center;
+    justify-content: center;
+
 }
 
 article {
