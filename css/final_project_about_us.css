@@ -3,26 +3,35 @@
     padding: 0;
     box-sizing: border-box;
 }
-p{
+
+body {
+    background-color: #f0d7d3;
+}
+
+p {
     text-align: center;
     text-decoration: none;
     padding: 30px 20px;
 
 }
-h1{
+
+h1 {
     text-align: center;
-    background-color: rgb(244, 205, 63);
+    background-color: #E1BF35;
 }
-h2{
+
+h2 {
     text-align: center;
 }
-footer{
+
+footer {
     text-align: center;
     padding: 20px 0;
     font-size: 14px;
 }
-section{
-    background-color: aqua;
+
+section {
+    background-color: #898eea;
     padding: auto;
     margin-bottom: 10px;
     border-radius: 30px;
