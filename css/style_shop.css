@@ -8,15 +8,19 @@ body{
 }
 
 .container {
-    display: flex;
-    flex-direction: column;  /* Stack items vertically */
+
+    display: flex;  /* Stack items vertically */
     align-items: center;    /* Optional: center items horizontally */
-    padding: 20px;
+   padding: 20px;
+   flex-direction: column;
     
 }
 
 .container img {
-    max-width: 800px;
+    max-width: 300px;
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
     /* Allows responsive scaling within container */
    
 }
@@ -30,15 +34,17 @@ article {
     background-color: aqua;
     width: 350px;
     padding: 20px;
-    margin: 30px;
+    margin-bottom: 30px;
     border-radius: 15px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.8);
     max-height: fit-content;
     text-align: center;
-
+    flex-direction: column;
 }
 h1{
     text-align: center;
+    margin-bottom: 20px;
 }
+
 
 @media only screen and (max-width 480px) {}
