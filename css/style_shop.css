@@ -3,27 +3,34 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     background-color: rgb(51, 134, 243);
 }
 
 .container {
     display: flex;
-    flex-direction: column;  /* Stack items vertically */
-    align-items: center;    /* Optional: center items horizontally */
+    flex-direction: column;
+    /* Stack items vertically */
+    align-items: center;
+    /* Optional: center items horizontally */
     padding: 20px;
-    
+
 }
 
 .container img {
     max-width: 800px;
     /* Allows responsive scaling within container */
-   
+
 }
 
 img {
     width: 200px;
-   
+
+}
+
+ul {
+    text-decoration: none;
 }
 
 article {
@@ -37,7 +44,8 @@ article {
     text-align: center;
 
 }
-h1{
+
+h1 {
     text-align: center;
 }
 
