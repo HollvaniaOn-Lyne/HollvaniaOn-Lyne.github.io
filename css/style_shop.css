@@ -4,6 +4,17 @@
     box-sizing: border-box;
 }
 
+nav {
+    text-align: center;
+    background-color: #B0A3A3;
+    box-sizing: border-box;
+    color: #333333;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 25px;
+}
+
 body {
     background-color: #f0d7d3;
 }
@@ -39,6 +50,8 @@ li {
     justify-content: center;
     margin-right: 565px;
     display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
 
@@ -57,8 +70,12 @@ article {
 h1 {
     background-color: #f3cc64;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: auto;
     color: #2499e7;
+}
+#nav{
+    display: inline;
+    margin:10px;
 }
 
 

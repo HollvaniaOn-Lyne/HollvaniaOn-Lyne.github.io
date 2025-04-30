@@ -86,5 +86,9 @@ img {
     max-width: fit-content;
 }
 
+li{
+    display: inline;
+    margin: 10px;
+}
 
 @media only screen and (max-width 480px) {}
