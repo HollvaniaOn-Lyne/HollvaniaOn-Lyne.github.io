@@ -58,4 +58,17 @@ iframe {
     margin-left: 469px;
 }
 
-@media only screen and (max-width: 480px) {}
+@media only screen and (max-width: 480px) {
+    h1 {
+        font-size: 20px;
+      }
+
+      p {
+        font-size: 14px;
+      }
+
+      .container {
+        padding: 15px;
+      }
+    
+}
