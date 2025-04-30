@@ -20,7 +20,12 @@ h1 {
 }
 
 nav {
-    height: 10rem
+    text-align: center;
+    background-color: #B0A3A3;
+    box-sizing: border-box;
+    color: #333333;
+    align-items: center;
+    justify-content: center;
 }
 
 article {
