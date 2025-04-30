@@ -4,15 +4,6 @@
     box-sizing: border-box;
 }
 
-nav {
-    text-align: center;
-    background-color: #B0A3A3;
-    box-sizing: border-box;
-    color: #333333;
-    align-items: center;
-    justify-content: center;
-}
-
 body {
     background-color: #f0d7d3;
 }
