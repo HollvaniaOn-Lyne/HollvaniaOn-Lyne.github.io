@@ -13,6 +13,10 @@ p {
     color: #333333;
 }
 
+#info {
+    padding: 0.5rem;
+}
+
 h1 {
     text-align: center;
     background-color: #f3cc64;
