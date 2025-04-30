@@ -73,10 +73,11 @@ h1 {
     margin-bottom: auto;
     color: #2499e7;
 }
-#nav{
+
+#nav {
     display: inline;
-    margin:10px;
+    margin: 10px;
 }
 
 
-@media only screen and (max-width 480px) {}
+@media only screen and (max-width: 480px) {}
