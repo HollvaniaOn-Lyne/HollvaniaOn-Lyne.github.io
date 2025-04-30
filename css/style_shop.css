@@ -11,6 +11,7 @@ nav {
     color: #333333;
     align-items: center;
     justify-content: center;
+    display: flex;
 }
 
 body {
@@ -48,6 +49,8 @@ li {
     justify-content: center;
     margin-right: 565px;
     display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
 
