@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: aqua;
+    background-color: #f0d7d3;
 }
 
 p {
@@ -14,9 +14,9 @@ p {
 
 h1 {
     text-align: center;
-    background-color: #b1a5a5;
+    background-color: #f3cc64;
     box-sizing: border-box;
-    color: #303030;
+    color: #2499e7;
 }
 
 nav {
@@ -24,7 +24,7 @@ nav {
 }
 
 article {
-    background-color: #b1a5a5;
+    background-color: #898eea;
     width: 480px;
     padding: 20px;
     margin-top: 160px;
